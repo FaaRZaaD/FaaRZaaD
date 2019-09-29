@@ -1,0 +1,2126 @@
+
+html {
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box; }
+
+*, *:before, *:after {
+ -webkit-box-sizing: inherit;
+ -moz-box-sizing: inherit;
+ box-sizing: inherit; }
+
+body {
+	
+    width : 100% ;
+	background-color: #f2f2f2 ;
+	margin : 0;
+	padding: 0 ;
+}
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?vdgkfh');
+  src:  url('fonts/icomoon.eot?vdgkfh#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?vdgkfh') format('truetype'),
+    url('fonts/icomoon.woff?vdgkfh') format('woff'),
+    url('fonts/icomoon.svg?vdgkfh#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: "\e986";
+}
+.icon-menu:before {
+  content: "\e9bd";
+}
+.icon-mail2:before {
+  content: "\ea84";
+
+}
+.icon-google-plus:before {
+  content: "\ea8b";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-rss:before {
+  content: "\ea9b";
+}
+.icon-play3:before {
+  content: "\ea1c";
+  
+}
+
+
+.main {
+	width: 100% ;
+	 
+	padding : 0 ;
+	margin: 0 ;
+
+}
+.icon-search:before {
+  content: "\e986";
+}
+
+.bala {
+width: 100% ;
+height: 100px ;
+
+	margin: 0 ;
+	overflow: hidden ;
+	position : relative ;
+}
+
+.up {
+width: 100% ;
+height: 4px ;
+		padding : 0 ;
+	margin: 0 ;
+	background-color: #bd0000 ;	
+	
+}
+.up1 {
+width: 100% ;
+height: 52% ;
+		padding : 0 ;
+	margin: 0 ;
+	background-color: #062b60 ;	
+	overflow: hidden;
+	
+}
+
+.list {
+  width:100% ;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  
+  justify-content: space-between ;
+  overflow: hidden ;
+  padding-left: 11.5% ;
+  padding-right: 4.5% ;
+}
+.lischap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow: hidden ;
+ margin-top: 12px;
+ height: 30px ;
+}
+.lischap > div {
+ padding: 6px 9px 6px 9px;
+  border-radius: 4px ;
+  margin-right: 8px;
+  text-align: center;
+font-size: 0.9em ;
+font-family: sans-serif ;
+font-weight: bolder ;
+color: white;
+
+}
+.lischap > div:hover {
+	background-color: rgba(232, 232, 255 , 0.3);
+	opacity: 0.9 ;
+
+}
+.lisras {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 10.5px;
+   height: 30px ;
+   overflow: hidden ;
+}
+.lisras > div {
+ padding: 6px 9px 6px 9px;
+  border-radius: 4px ;
+  text-align: center;
+font-size: 0.9em ;
+font-family: sans-serif ;
+font-weight: bolder ;
+color: white;
+}
+.lisras > div:hover {
+	background-color: rgba(232, 232, 255 , 0.3);
+	opacity: 0.9 ;
+
+}
+.lisras >.ic {
+	margin-right: 3px;
+}
+.lisras > .ic:hover {
+	background-color: #062b60;
+	opacity: 1 ;
+
+}
+.lisras >.watch {
+	background-color: #cc0000 ;
+	
+}
+.lisras >.watch:hover {
+	background-color: rgba(255, 102, 102, 1) ;
+	
+	
+}
+
+
+
+
+
+.up2 {
+width: 100% ;
+height: 50% ;
+		padding : 0 ;
+	margin: 0 ;
+	background-color: white ;	
+overflow:hidden ;
+	
+}
+
+.list1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 10.5px;
+	margin-left: 11.5% ;
+	
+}
+.list1 > div {
+ padding: 6px 11px 6px 9px;
+  border-radius: 4px ;
+  margin-right: 9.5px;
+  text-align: center;
+
+  
+font-size: 0.7em ;
+font-family: sans-serif ;
+font-weight: bolder ;
+color: #062b60;
+border: 1px solid white ;
+position: relative ;
+}
+.list1 >.hot {
+	color: #c60000 ;
+	margin-right: 0px;
+}
+.list1 >.afghan {
+	padding-left: 3px ;
+	padding-right: 17px ;
+	margin-right: 1px;
+}
+.list1 >.probe {
+	
+	padding-right: 18px ;
+	margin-right: 1px;
+}
+.khat {
+	color: #cccccc;
+	position: absolute ;
+	right : 0 ;
+}
+.link1 {
+	text-decoration: none ;
+	color: #062b60;
+}
+.link1:hover {
+	color: rgba(6, 43, 96, 0.7) ;
+	
+}
+.link2 {
+	text-decoration: none ;
+	color: #062b60;
+}
+.link2:hover {
+	color: rgba(6, 43, 96, 0.7) ;
+	
+}
+.link3 {
+	text-decoration: none ;
+	color: #062b60;
+}
+.link3:hover {
+	color: rgba(6, 43, 96, 0.7) ;
+	
+}
+
+.logo {
+width: 6.3% ;
+ position: absolute;
+  top: 7%;
+  left: 4.2%;
+position: absolute ;
+border : 3px solid white ;
+border-radius: 4px ;
+	
+}
+
+.mainezafe {
+	width: 100% ;
+	overflow: hidden ;
+	margin-top: 25px ;
+	height: 250px ;
+	padding: 0 17.9% 0 17.9% ;
+}
+.ad {
+	width: 100% ;
+	height: 100% ;
+	
+}
+
+.main1 {
+	width: 100% ;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+	overflow: hidden ;
+	padding-top: 13px ;
+	margin-top: 13px ;
+	padding-left: 4.2% ;
+	padding-right: 4.2% ;
+	
+}
+
+.vasat {
+	width: 55% ;
+	border: 1px solid #cccccc; 
+	background-color: white ;
+	overflow: hidden ;
+	margin-left: 13px ;
+	margin-right: 13px ;
+	
+}
+
+.ax1 {
+	width: 100% ;
+	height: 320px ;
+	
+}
+.axotitr {
+	position: relative ;
+	overflow: hidden ;
+}
+.coming {
+	position: absolute ;
+	bottom: 4px ;
+	left: 18px ;
+	font-family: sans-serif ;
+    font-weight: bolder ;
+	margin: 0 ;
+	padding: 6px ;
+	font-size: 2.8em ;
+	letter-spacing:-3px ;
+	background-color: rgba(24, 52, 104, 0.8) ;
+	color: white ;
+	
+}
+.matn1 {
+	font-family: sans-serif ;
+    font-weight: bolder ;
+	font-size: 2em ;
+	margin-left: 26px ;
+	padding: 0 ;
+	margin-top: 13px ;
+	letter-spacing:-1px ;
+	color: rgb(24, 52, 104); 
+	margin-bottom: 15px  ;
+}
+.matn1:hover {
+	opacity: 0.7 ;
+}
+.par{
+	width: 100% ; 
+	overflow: hidden ;
+	margin-top: 0 ;
+	padding: 0 27px 0 27px ;
+}
+.chap1 {
+	width: 50% ;
+	float: left ;
+	
+}
+
+.rast1 {
+	width: 50% ;
+	float: right ;
+	
+}
+.chap1> div {
+	border-left: 1px solid #cccccc; 
+	margin-bottom: 13px ;
+	font-family: sans-serif ;
+	font-size: 0.8em ;
+	padding-left: 15px;
+	padding-top: 2px ;
+	padding-bottom: 2px ;
+	color: #0a405c ;
+}
+.chap1 > div:hover {
+	opacity: 0.7 ;
+}
+.rast1> div {
+	border-left: 1px solid #cccccc; 
+	margin-bottom: 13px ;
+	font-family: sans-serif ;
+	font-size: 0.8em ;
+	padding-left: 15px;
+	padding-top: 2px ;
+	padding-bottom: 2px ;
+	color: #0a405c
+}
+.rast1 > div:hover {
+	opacity: 0.7 ;
+}
+.par1 {
+	width: 100% ;
+
+	overflow: hidden ;
+	padding: 0 27px 0 27px ;
+	margin-top: 35px ;
+}
+.chap2 {
+	width: 48% ;
+	float: left ;
+	overflow: hidden ;
+
+}
+.rast2 {
+	width: 48% ;
+	float: right  ;
+	overflow: hidden ;
+
+
+}
+.axotitr1 {
+	position: relative ;
+    overflow: hidden ;
+	
+}
+.ax2 {
+	width: 100% ;
+	height: 195px ;
+	
+}
+.trump {
+	position: absolute ;
+	bottom: 4px ;
+	left: 0px ;
+	font-family: sans-serif ;
+    font-weight: bolder ;
+	margin: 0 ;
+	padding: 6px ;
+	font-size: 1.2em ;
+	background-color: rgba(24, 52, 104, 0.8) ;
+	color: white ;
+	
+}
+.matn2 {
+	font-family: sans-serif ;
+    font-weight: bolder ;
+	font-size: 1.2em ;
+	margin-left: 6px ;
+	padding: 0 ;
+	margin-top: 5px ;
+	color: rgb(24, 52, 104); 
+}
+.matn2:hover {
+	opacity: 0.7 ;
+}
+.matn3 {
+	border-left: 1px solid #cccccc; 
+	margin-bottom: 13px ;
+	font-family: sans-serif ;
+	font-size: 0.8em ;
+	padding-left: 15px;
+	padding-top: 2px ;
+	padding-bottom: 2px ;
+	color: #0a405c ;
+	margin-left:7px ;
+}
+.matn3:hover {
+	opacity: 0.7 ;
+}
+.part2 {
+	width: 100% ;
+
+	overflow: hidden ;
+	padding: 5px 25px 18px 25px ;
+	border-top: 1px solid #cccccc ;
+	border-bottom: 1px solid #cccccc ;
+	
+}
+.part2> div {
+	border-bottom: 1px solid #cccccc ;
+	overflow: hidden ;
+	padding-top: 18px ;
+}
+.part2>.akhari {
+    border-bottom: 1px solid white ;
+	overflow: hidden ;
+	padding-top: 18px ;
+}
+.ax3 {
+	float: left ;
+	width: 23% ;
+	height: 90px ;
+    margin-right: 13px ;
+	margin-bottom: 18px ;
+}
+.media {
+	color: rgb(24, 52, 104);
+	opacity: 0.7 ;
+	padding: 0 ;
+	font-family: sans-serif ;
+    font-weight: bolder ;
+	font-size: 0.7em ;
+	margin: 3px 0 0 0px ;
+	float: left ;
+}
+
+.yek {
+	font-family: sans-serif ;
+    font-weight: bolder ;
+	font-size: 1em ;
+	padding: 0 ;
+	margin-top: 5px ;
+	color: rgb(24, 52, 104);
+}
+.yek:hover {
+	opacity: 0.7 ;
+}
+.chap {
+	width: 300px ;
+	
+
+}
+.chapbala {
+	width:100% ; 
+    position: relative ;
+	padding: 15px ;
+	overflow: hidden ;
+	border: 1px solid #cccccc ;
+	background-color: white ;
+}
+
+.ax4 {
+	width: 100% ;
+	margin-bottom: 15px ;
+}
+.ax5 {
+	width: 40px ;
+	height: 42px ;
+	float: left ;
+	margin-right: 8px ;
+}
+.now {
+	background-color: #cc0000 ;
+	font-family: sans-serif ;
+    font-weight: bolder ;
+	font-size: 0.6em ;
+	margin-top: 1px ;
+	float: left ;
+	color: white ;
+	padding: 4px ;
+}
+.special {
+    position: absolute ;
+	font-family: sans-serif ;
+    font-weight: bolder ;
+	font-size: 0.9em ;
+	left: 64px ;
+	color: rgb(24, 52, 104);
+}
+.special:hover {
+	opacity: 0.7 ;
+}
+.chappaeen {
+	width:100% ; 
+	padding: 15px 15px 5px 15px ;
+	overflow: hidden ;
+	border: 1px solid #cccccc ;
+	background-color: white ;
+	margin-top: 10px ;
+	
+}
+.Clips {
+	font-family: sans-serif ;
+    font-weight: bolder ;
+	font-size: 1em ;
+	margin: 0 ;
+	padding: 0 ;
+}
+.aval {
+	width: 100% ;
+	
+	overflow: hidden ;
+    border-bottom: 1px solid #cccccc ;
+	margin-top : 10px ;
+	padding-bottom: 18px ;
+	margin-bottom: 13px ;
+}
+.aval1 {
+	width: 100% ;
+	
+	overflow: hidden ;
+	margin-top : 10px ;
+	margin-bottom: 13px ;
+}
+.ax6 {
+	width: 100%;
+	height: 100% ;
+	
+}
+.ax66 {
+	float: left ;
+	width: 48%;
+	height: 75px ;
+	overflow: hidden ;
+	position: relative ;
+}
+.rasteax {
+    width: 47% ;
+    float: right ;
+    overflow: hidden ;
+	font-family: sans-serif ;
+    font-weight: bolder ;
+    padding-top: 0 ;
+	line-height: 15px ;
+}
+.rasteax1 {
+	font-size: 0.7em ;
+	color: #cc0000 ;
+}
+.rasteax1:hover {
+	opacity: 0.7 ;
+}
+.rasteax2 {
+	font-size: 0.8em ;
+	color: rgb(24, 52, 104);
+}
+.rasteax2:hover {
+	opacity: 0.7 ;
+}
+.rast {
+	width: 300px ;
+    overflow: hidden ;
+
+}
+.tabligh {
+	width:100% ; 
+	padding: 15px ;
+	overflow: hidden ;
+	border: 1px solid #cccccc ;
+	background-color: white ;
+}
+
+.tabligh1 {
+	width: 100% ;
+}
+.rastpaeen {
+	width: 100% ;
+    background-color: white ;
+	overflow: hidden ;
+	margin-top: 92% ;
+	padding: 15px ;
+	border: 1px solid #cccccc ;
+}
+.foxnation {
+	width: 40% ;
+	float: left ;
+	height: 30px ;
+}
+.join {
+	float: right ;
+	padding: 7px ;
+	background-color: #cc0000 ;
+	color: white ;
+	font-size: 0.9em ; 
+	font-family: sans-serif ;
+	font-weight: bolder ;
+	border-radius: 4px ;
+}
+.ax7 {
+	width: 100% ;
+	margin-top: 15px ;
+}
+.zirax1 {
+	font-size: 0.7em ; 
+	font-family: sans-serif ;
+	font-weight: bolder ;
+	color: #cc0000 ;
+}
+.zirax2 {
+	font-size: 0.9em ; 
+	font-family: sans-serif ;
+	font-weight: bolder ;
+	color: rgb(24, 52, 104);
+	
+}
+.zirax2:hover {
+	opacity: 0.7 ;
+}
+.rastpaeen1 {
+	width: 100% ;
+    background-color: white	;
+	overflow: hidden ;
+	margin-top: 10px ;
+	padding: 15px ;
+	border: 1px solid #cccccc ;
+}
+.ax8 {
+	width: 100% ;
+
+}
+.prg1 {
+	width: 100% ;
+	font-family: sans-serif ;
+	font-weight: bolder ;
+	font-size: 0.85em ;
+	margin-top: 7px ;
+	padding-bottom: 18px ;
+	border-bottom: 1px solid #cccccc ;
+}
+.prg11 {
+	color: rgb(24, 52, 104);
+}
+.prg11:hover {
+	opacity: 0.7 ;
+}
+.prg111 {
+	margin-top: 8px ;
+	font-size: 0.8em ;
+	color: rgb(24, 52, 104);
+	opacity: 0.7 ;
+	margin-bottom: 0 ;
+	padding: 0 ;
+}
+.prg111:hover {
+	opacity: 0.5 ;
+}
+.prg2 {
+	width: 100% ;
+	font-family: sans-serif ;
+	font-weight: bolder ;
+	font-size: 0.85em ;
+	margin-top: 15px ;
+	padding-bottom: 18px ;
+	border-bottom: 1px solid #cccccc ;
+}
+.prg3 {
+	width: 100% ;
+	font-family: sans-serif ;
+	font-weight: bolder ;
+	font-size: 0.85em ;
+	margin-top: 15px ;
+	padding-bottom: 3px ;
+}
+
+.rastpaeen2 {
+	width: 100% ;
+    background-color: white	;
+	overflow: hidden ;
+	margin-top: 10px ;
+	padding: 15px ;
+	border: 1px solid #cccccc ;
+}
+.prg4 {
+	width: 100% ;
+	margin-top: 10px ;
+	overflow: hidden ;
+	border-bottom: 1px solid #cccccc ;
+	padding-bottom: 10px ;
+}
+.prg44 {
+	font-family: sans-serif ;
+	font-weight: bolder ;
+	font-size: 0.85em ;
+	color: rgb(24, 52, 104);
+	float: left ;
+	width: 70% ;
+}
+.prg44:hover {
+	opacity: 0.7 ;
+}
+.prg444 {
+	font-family: sans-serif ;
+	font-size: 0.75em ;	
+	color: rgb(24, 52, 104);
+	
+}
+.prg4444 {
+	color: #cccccc ;
+	font-size: 0.75em ;	
+}
+.gerdeslah {	
+    float: right ;
+	overflow: hidden ;
+	width: 25% ;
+	height: 67px ;
+
+}
+.axgerd {
+	
+	border-radius: 50px ;
+	width: 100% ;
+	height: 100% ;
+	overflow: hidden ;
+	
+}
+.axgerd1 {
+	width: 100% ;
+	height: 100% ;
+}
+.prg5 {
+	width: 100% ;
+	margin-top: 10px ;
+	overflow: hidden ;
+}
+
+.rastpaeen3 {
+	width: 100% ;
+	overflow: hidden ;
+    margin-top: 10px ;
+	border: 1px solid #cccccc ;
+	background-color: white ;
+}
+.rastpaeen33 {
+	width: 100% ;
+    background-color: white	;
+	overflow: hidden ;
+	border-bottom: 1px solid #cccccc ;
+	padding: 15px ;
+}
+.rastpaeen333 {
+	width: 100% ;
+    background-color: white	;
+	overflow: hidden ;
+	border-bottom: 1px solid #cccccc ;
+	padding: 15px ;
+}
+.pod {
+	margin-top: 5px ;
+	padding: 0 ;
+	font-size: 0.75em ;
+	font-family: sans-serif ;
+	color: yellow ;
+	opacity: 0.7 ;
+	color: rgb(24, 52, 104);
+}
+.rundown {
+float: left ;
+width: 75% ;
+}
+.rundown1 {
+	font-family: sans-serif ;
+	font-weight: bolder ;
+	font-size: 1em ;
+	color: rgb(24, 52, 104);
+	margin-top: 10px ;
+	margin-left: 0 ;
+	margin-bottom: 0 ;
+	padding: 0 ;
+}
+.rundown1:hover {
+	opacity: 0.7 ;
+}
+.sep {
+	font-family: sans-serif ;
+	font-size: 0.75em ;	
+	color: black ;
+	font-weight: normal ;
+	margin-top: 3px;
+	margin-bottom: 0px;
+	opacity: 0.7 ;
+}
+.sep1 {
+	line-height: -2px ;
+	font-family: sans-serif ;
+	font-size: 0.75em ;	
+	color: black ;
+	font-weight: normal ;
+	margin-top: 3px ;
+	opacity: 0.7 ;
+}
+.axgerd2 {
+	width: 25% ;
+	height: 67px ;
+	overflow: hidden ;
+	float: right ;
+	margin-top: 0 ;
+}
+.prg8 {
+	width: 100% ;
+	overflow: hidden ;
+	
+}
+.pod11 {
+	width: 100% ;
+	height: 30px; 
+}
+
+.rastpaeen4 {
+	width: 100% ;
+	overflow: hidden ;
+    margin-top: 10px ;
+	border: 1px solid #cccccc ;
+	background-color: white	;
+	padding: 15px ;
+}
+.daily {
+	font-family: sans-serif ;
+	font-weight: bolder ;
+	font-size: 1em ;
+	color: rgb(24, 52, 104);
+	margin: 0px ;
+	padding: 0 ;
+}
+.email {	
+	width: 100% ;
+    overflow: hidden ;
+	margin-top: 13px ;
+}
+.textbox {
+	margin: 0 ;
+	width: 78% ;
+	float: left ;
+	padding: 5px 0px 6px 10px ;
+	font-family: sans-serif ;
+	font-size: 0.75em ;
+	border-radius: 4px ;
+	border: 1px solid #cccccc ; 
+}
+.button {
+	margin: 0 ;
+	width: 22% ;
+	float: right ;
+	font-family: sans-serif ;
+	font-size: 0.7em ; 
+	background-color: #cc0000 ;
+	border: 0 ;
+	color: white ; 
+	font-weight: bolder ;
+	padding: 7px ;
+	border-radius: 4px ;
+}
+.button:hover {
+	background-color: rgba(255, 102, 102, 1) ;
+}
+
+
+.main2 {
+	width: 100% ;
+	overflow: hidden ;
+	margin-top: 13px ;
+	padding: 0 4.7% 0 4.2% ;
+}
+.main22 {
+	width: 100% ;
+	background-color: white ;
+	padding: 15px ;
+	border: 1px solid #cccccc ;
+	
+}
+.slideax {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+	margin-top: 10px ;
+}
+.slideax > div {
+	width: 11.3% ;
+	height: 220px ;
+    margin-right: 12px;
+    text-align: center;
+    font-size: 0.9em ;
+    font-family: sans-serif ;
+    font-weight: bolder ;
+    color: white;
+	position: relative ;
+}
+.tasvir1 {
+	width: 100% ;
+	height: 100% ;
+}
+.dark {
+	position: absolute ;
+	bottom: 0 ;
+	left: 0 ;
+	color: white ;
+	text-align: left ;
+	padding-right: 0 ;
+	background-color: black ;
+}
+
+.main3 {
+	width: 100% ;
+	height: 100px ;
+	background-color: #333333 ;
+	margin-top: 23px ;
+}
+
+.main4 {
+	width: 100% ;
+	overflow: hidden ;
+	margin-top: 20px ;
+	padding: 0 4.7% 0 4.2% ;
+}
+.main44 {
+	width: 100% ;
+	overflow: hidden ;
+}
+
+.american {
+	float: left ;
+	font-family: sans-serif ;
+	font-weight: bolder ;
+	font-size: 1.5em ;
+	color: rgb(24, 52, 104);
+	margin: 0 ;
+}
+.american1 {
+	float: right ;
+	font-family: sans-serif ;
+	font-weight: bolder ;
+	font-size: 1em ;
+	margin-top: 5px ;
+	color: rgb(24, 52, 104);
+}
+.main444 {
+	width: 100% ;
+	overflow: hidden ;
+}
+.main4444 {
+	width: 100% ;
+	overflow: hidden ;
+}
+.left {
+	width: 50% ;
+	height: 436px ;
+	float: left ;
+	overflow: hidden ;
+	position: relative ;
+}
+
+.right {
+	width: 50% ;
+	float: right ;
+	height: 436px ;
+	background-color: white ;
+	padding: 25px 30px 0 30px ;
+	border: 1px solid #cccccc ;
+}
+.picc1 {
+	width: 100% ;
+	height: 63% ;
+}
+.ruax {
+	position: absolute ;
+	background-color: black ;
+	bottom: 0 ;
+	padding: 25px 30px 10px 30px ;
+	width: 100% ;
+	height: 37% ;
+}
+.ruax1 {
+	color: white;
+	padding: 0 ;
+	font-family: sans-serif ;
+    font-weight: bolder ;
+	font-size: 0.7em ;
+	margin: 3px 0 0 0px ;
+	float: left ;
+}
+.ruax2 {
+	font-family: sans-serif ;
+    font-weight: bolder ;
+	font-size: 1.7em ;
+	padding: 0 ;
+	margin-top: 5px ;
+	color: white;
+}
+.ruax1:hover {
+	opacity: 0.7 ;
+}
+
+
+
+.right>div {
+	border-bottom: 1px solid #cccccc ;
+	margin-bottom: 10px ;
+}
+.right>div.enddd {
+	border-bottom: 1px solid white ;
+}
+
+.main44new {
+	width: 100% ;
+	overflow: hidden ;
+	margin-top: 40px ;
+}
+.leftnew {
+	width: 50% ;
+	height: 436px ;
+	float: left ;
+	overflow: hidden ;
+	position: relative ;
+}
+
+.main5 {
+	width: 100% ;
+	overflow: hidden ;
+	margin-top: 80px ;
+	padding: 20px 4.7% 30px 4.2% ;
+	background-color: #062b60 ;
+}
+.main55 {
+	width: 100% ;
+	overflow: hidden ;  
+    border-bottom: 1px solid rgba(204, 204, 204, 0.1) ;
+	padding-bottom: 40px ;
+}
+.main55:hover ul#foot1  {
+	opacity: 0.6 ;
+}
+.main55:hover  #foot3 {
+	opacity: 0.6 ;
+}
+.main55:hover  #foot5 {
+	opacity: 0.6 ;
+}
+.main55:hover  #foot7 {
+	opacity: 0.6 ;
+}
+.main55:hover  #foot9 {
+	opacity: 0.6 ;
+}
+.main55:hover  #foot11 {
+	opacity: 0.6 ;
+}
+.main55:hover #foot2  {
+	opacity: 0.6 ;
+}
+.main55:hover  #foot4 {
+	opacity: 0.6 ;
+}
+.main55:hover  #foot6 {
+	opacity: 0.6 ;
+}
+.main55:hover  #foot8 {
+	opacity: 0.6 ;
+}
+.main55:hover  #foot10 {
+	opacity: 0.6 ;
+}
+.main55:hover  #foot12 {
+	opacity: 0.6 ;
+}
+
+.main55bala {
+	width: 100% ;
+	overflow: hidden ;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+	justify-content: space-between ;
+	justify-content: space-between ;
+}
+.main55paeen {
+	width: 100% ;
+	overflow: hidden ;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+	justify-content: space-between ;
+	background-color: green ;
+	margin-top: 15px ;
+}
+.main55bala>div {
+
+}
+.main55bala>div.payan {
+	margin: 0 0 0 0;
+}
+ul#foot1 , #foot3 ,#foot5, #foot7, #foot9, #foot11  {
+	width: 100% ;
+	list-style-type: none ;
+    color: white ;
+	padding: 0px 0px 0 15px ;
+	margin-top: 35px ;
+}
+ul#foot1:hover {
+	opacity: 0.4 ;
+}
+ul#foot1 li ,#foot3 li, #foot5 li , #foot7 li, #foot9 li, #foot11 li{
+	font-family: sans-serif ;
+	font-size: 0.9em ;
+	margin-bottom: 8px ;
+}
+ul#foot1 li.titr  ,#foot3 li.titr, #foot5 li.titr , #foot7 li.titr, #foot9 li.titr, #foot11 li.titr{
+	color: white ;
+	font-weight: bolder ;
+	font-size: 1.1em ;
+}
+
+ul#foot2 {
+	list-style-type: none ;
+    color: white ;
+	padding: 0px 0px 0 15px ;
+	margin-top: 55px ;
+}
+ul#foot4 {
+	list-style-type: none ;
+    color: white ;
+	padding: 0px 0px 0 15px ;
+	margin-top: 55px ;
+}
+ul#foot6 {
+	list-style-type: none ;
+    color: white ;
+	padding: 0px 0px 0 15px ;
+	margin-top: 81px ;
+}
+ul#foot8 {
+	list-style-type: none ;
+    color: white ;
+	padding: 0px 0px 0 15px ;
+	margin-top: 106px ;
+}
+ul#foot10 {
+	list-style-type: none ;
+    color: white ;
+	padding: 0px 0px 0 15px ;
+	margin-top: 131px ;
+}
+ul#foot12 {
+	list-style-type: none ;
+    color: white ;
+	padding: 0px 0px 0 15px ;
+	margin-top: 81px ;
+}
+
+ul#foot2 li, ul#foot4 li ,ul#foot6 li , ul#foot8 li, ul#foot10 li, ul#foot12 li{
+	font-family: sans-serif ;
+	font-size: 0.9em ;
+	margin-bottom: 8px ;
+}
+ul#foot2 li.titr, ul#foot4 li.titr ,ul#foot6 li.titr , ul#foot8 li.titr, ul#foot10 li.titr, ul#foot12 li.titr {
+	color: white ;
+	font-weight: bolder ;
+	font-size: 1.1em ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+	width: 100% ;	
+	overflow: hidden ;
+	margin-top: 30px ;
+}
+.lfoot {
+	width:72% ;	
+	overflow: hidden ;
+	float: left ;
+}
+.axfoot {
+	width: 6% ;
+	opacity: 0.4 ;
+    float: left ;
+}
+
+.fehrest {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;	
+}
+.fehrest > div {
+	padding: 3px 7px 6px 9px;
+	border-radius: 4px ;
+	text-align: center;
+	font-size: 0.75em ;
+	font-family: sans-serif ;
+	color: white;
+	position: relative ;
+
+}
+.fehrest >.terms {
+	color: white ;
+	margin-right: 0px;
+}
+.fehrest >.afghan {
+	padding-left: 3px ;
+}
+.khat {
+	color: #cccccc;
+	position: absolute ;
+	right : 0 ;
+}
+.link11 {
+	text-decoration: none ;
+	color: white;
+}
+
+.prgend {
+	margin: 8px 0 0 8px ;
+	font-size: 0.75em ;
+	font-family: sans-serif ;
+	color: white ;
+	float: left ;
+	opacity: 0.4 ;
+}
+
+.rfoot {
+	width: 28% ;
+	float: right ;
+	overflow: hidden ;
+}
+.rfoot1 {
+	width: 100% ;
+	overflow: hidden ;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	float: right ;
+	direction: rtl ;
+}
+.rfoot1>div {
+	width: 30px ;
+	height: 30px ;
+	margin: 5px ;
+    text-align: center ;
+	border-radius: 50px;
+	padding-top: 8px ;
+    color: white ;
+	font-size: 15px ;
+	background-color: #000042 ;
+}
+
+
+@media only screen and (max-width: 768px) {
+body {
+    width : 100% ;
+	background-color: #f2f2f2 ;
+	margin : 0;
+	padding: 0 ;
+  }
+.main {
+	width: 100% ;
+	 
+	padding : 0 ;
+	margin: 0 ;
+
+}
+.main2 {
+	display: none ;
+}
+.up2 {
+	display: none ;
+}
+.ad {
+	display: none ;
+}
+
+.bala {
+	display: none ;
+}
+.mobala {
+	width: 100% ;
+	background-color:#062b60 ;
+	height: 50px ;
+	padding : 0 ;
+	margin: 0 ;
+	position : relative ;
+	overflow: hidden;
+}
+.moup {
+width: 100% ;
+height: 2px ;
+		padding : 0 ;
+	margin: 0 ;
+	background-color: #bd0000 ;	
+	
+}
+.mologo {
+width: 20% ;
+height: 37px ;
+position: absolute;
+top: 13%;
+left: 0%;
+position: absolute ;
+	
+}
+.molist {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 10.5px;
+  float: right ;
+  margin-right: 15px ;
+}
+.molist >.ic {
+color: #cccccc ;
+font-size: 1.2em ;
+margin-left: 15px ;
+}
+.molist >.ic:hover {
+opacity: 0.5 ;
+}
+.molist >.watch {
+background-color: #cc0000 ;
+padding: 4px 6px 6px 6px;
+border-radius: 4px ;
+font-size: 0.7em ;
+font-family: sans-serif ;
+font-weight: bolder ;
+color: white;
+text-align: center;
+}
+.molist >.watch:hover {
+	background-color: rgba(255, 102, 102, 1) ;
+	
+	
+}
+.main1 {
+display: none ;
+}
+.momain1 {
+	background-color: red ;
+	width: 100% ;
+	overflow: hidden ;
+}
+
+.movasat {
+	width: 100% ;
+	border: 1px solid #cccccc; 
+	background-color: white ;
+	overflow: hidden ;
+}
+
+.moax1 {
+	width: 100% ;
+
+	
+}
+.moaxotitr {
+	position: relative ;
+	overflow: hidden ;
+}
+.mocoming {
+	position: absolute ;
+	bottom: 4px ;
+	left: 10px ;
+	font-family: sans-serif ;
+    font-weight: bolder ;
+	margin: 0 ;
+	padding: 6px ;
+	font-size: 1.5em ;
+	background-color: rgba(24, 52, 104, 0.8) ;
+	color: white ;
+	
+}
+.momatn1 {
+	font-family: sans-serif ;
+    font-weight: bolder ;
+	font-size: 1.5em ;
+	margin-left: 26px ;
+	padding: 0 ;
+	margin-top: 13px ;
+	letter-spacing:-1px ;
+	color: rgb(24, 52, 104); 
+	margin-bottom: 15px  ;
+}
+.momatn1:hover {
+	opacity: 0.7 ;
+}
+.mopar{
+	width: 100% ;
+	overflow: hidden ;
+	margin-top: 0 ;
+	padding: 0 27px 0 27px ;
+}
+.mochap1 {
+	width: 100% ;	
+}
+.mochap1> div {
+	border-left: 1px solid #cccccc; 
+	margin-bottom: 13px ;
+	font-family: sans-serif ;
+	font-size: 0.9em ;
+	padding-left: 15px;
+	padding-top: 2px ;
+	padding-bottom: 2px ;
+	color: #0a405c ;
+}
+.mochap1 > div:hover {
+	opacity: 0.7 ;
+}
+.momedia {
+	color: rgb(24, 52, 104);
+	opacity: 0.7 ;
+	padding: 0 ;
+	font-family: sans-serif ;
+    font-weight: bolder ;
+	font-size: 0.5em ;
+}
+.momatn11 {
+	font-family: sans-serif ;
+    font-weight: bolder ;
+	font-size: 1.5em ;
+	margin-left: 26px ;
+	padding: 0 ;
+	margin-top:0px ;
+	letter-spacing:-1px ;
+	color: rgb(24, 52, 104); 
+	margin-bottom: 15px  ;
+}
+.momatn11:hover {
+	opacity: 0.7 ;
+}
+
+.mochap {
+	width: 100% ; 
+	background-color: #f2f2f2 ;
+	overflow: hidden ;
+	margin-top: 15px ;
+	padding: 10px
+	
+}
+.monow {
+	background-color: #cc0000 ;
+	font-family: sans-serif ;
+    font-weight: bolder ;
+	font-size: 0.6em ;
+	margin-top: 1px ;
+	float: left ;
+	color: white ;
+	padding: 4px ;
+}
+.mospecial {
+    position: absolute ;
+	font-family: sans-serif ;
+    font-weight: bolder ;
+	font-size: 0.9em ;
+	top: 15px ;
+	left: 64px ;
+	color: rgb(24, 52, 104);
+}
+.mospecial:hover {
+	opacity: 0.7 ;
+}
+.moax6 {
+	width: 100%;
+	height: 100% ;
+	
+}
+.moax66 {
+	float: left ;
+	width: 19%;
+	height: 75px ;
+	overflow: hidden ;
+	position: relative ;
+}
+.morasteax {
+    width: 70% ;
+    float: left ;
+    overflow: hidden ;
+	font-family: sans-serif ;
+    font-weight: bolder ;
+	margin-left: 13px ;
+    padding-top: 0 ;
+	line-height: 15px ;
+}
+.morasteax1 {
+	font-size: 0.7em ;
+	color: #cc0000 ;
+}
+.morasteax1:hover {
+	opacity: 0.7 ;
+}
+.morasteax2 {
+	font-size: 0.8em ;
+	color: rgb(24, 52, 104);
+}
+.moaval {
+	width: 100% ;
+	
+	overflow: hidden ;
+    border-bottom: 1px solid #cccccc ;
+	margin-top : 10px ;
+	padding-bottom: 13px ;
+	margin-bottom: 13px ;
+}
+.mmoaval {
+	width: 100% ;
+	
+	overflow: hidden ;
+	margin-top : 45px ;
+	padding-bottom: 13px ;
+	margin-bottom: 13px ;
+}
+.mofoxnation {
+	width: 15% ;
+	float: left ;
+	height: 30px ;
+}
+.aval1 {
+	width: 100% ;
+	
+	overflow: hidden ;
+	margin-top : 10px ;
+	margin-bottom: 13px ;
+}
+.showww {
+	background-color: #0b4d79 ;
+	color: white ;
+	width: 100% ;
+	text-align: center ;
+	padding: 15px ;
+	font-family: sans-serif ;
+	font-weight: bolder ;
+	font-size: 0.9em ;
+	border-radius: 5px ;
+	margin-top: 25px ;
+	margin-bottom: 10px ;
+}
+.morast {
+	width: 100% ;
+    overflow: hidden ;
+	padding: 10px ;
+	margin-top: 10px ;
+}
+.morastpaeen {
+	width: 100% ;
+    background-color: white ;
+	overflow: hidden ;
+	margin-top: 15px ;
+	padding: 15px 15px 0px 15px ;
+	border: 1px solid #cccccc ;
+}
+.moClips {
+	font-family: sans-serif ;
+    font-weight: bolder ;
+	font-size: 1em ;
+	margin: 0 0 13px 0 ;
+	padding: 0 ;
+}
+.moprg4 {
+	width: 100% ;
+	margin-top: 10px ;
+	overflow: hidden ;
+	border-bottom: 1px solid #cccccc ;
+	padding-bottom: 10px ;
+}
+.gerdeslah {	
+    float: right ;
+	overflow: hidden ;
+	width: 70px ;
+	height: 70px ;
+	
+}
+.moaxgerd {
+	border-radius: 50px ;
+	width: 100% ;
+	height: 100% ;
+	overflow: hidden ;
+}
+.moprg44 {
+	font-family: sans-serif ;
+	font-weight: bolder ;
+	font-size: 0.85em ;
+	color: rgb(24, 52, 104);
+	float: left ;
+	width: 60% ;
+}
+.moaxgerd2 {
+	width: 67px ;
+	height: 67px ;
+	overflow: hidden ;
+	float: right ;
+	margin-top: 0 ;
+}
+.motextbox {
+	margin: 0 ;
+	width: 85% ;
+	float: left ;
+	padding: 5px 0px 6px 10px ;
+	font-family: sans-serif ;
+	font-size: 0.75em ;
+	border-radius: 4px ;
+	border: 1px solid #cccccc ; 
+}
+.mobutton {
+	margin: 0 ;
+	width: 15% ;
+	float: right ;
+	font-family: sans-serif ;
+	font-size: 0.7em ; 
+	background-color: #cc0000 ;
+	border: 0 ;
+	color: white ; 
+	font-weight: bolder ;
+	padding: 7px ;
+	border-radius: 4px ;
+}
+.mobutton:hover {
+	background-color: rgba(255, 102, 102, 1) ;
+}
+.momain2 {
+	width: 100% ;
+	overflow: hidden ;
+	margin-top: 13px ;
+}
+.momain22 {
+	width: 100% ;
+	background-color: white ;
+	overflow: hidden ;
+	padding: 15px ;
+	border: 1px solid #cccccc ;
+}
+.moslideax {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+	margin-top: 10px ;
+}
+.moslideax > div {
+	width: 20% ;
+	height: 220px ;
+    margin-right: 12px;
+    text-align: center;
+    font-size: 0.9em ;
+    font-family: sans-serif ;
+    font-weight: bolder ;
+    color: white;
+	position: relative ;
+}
+.left {
+	width: 100% ;
+
+	overflow: hidden ;
+	position: relative ;
+}
+
+.right {
+	width: 100% ;
+	background-color: white ;
+	padding: 25px 30px 20px 30px ;
+	border: 1px solid #cccccc ;
+}
+.main4 {
+	width: 100% ;
+	overflow: hidden ;
+	margin-top: 20px ;
+	padding: 0;
+}
+.american {
+	float: left ;
+	font-family: sans-serif ;
+	font-weight: bolder ;
+	font-size: 1.2em ;
+	color: rgb(24, 52, 104);
+	margin: 0 0 0 10px ;
+}
+.ruax2 {
+	font-family: sans-serif ;
+    font-weight: bolder ;
+	font-size: 1.1em ;
+	padding: 0 ;
+	margin-top: 5px ;
+	color: white;
+}
+.leftnew {
+	width: 100% ;
+	overflow: hidden ;
+	position: relative ;
+}
+.lfoot {
+	width:100% ;	
+	overflow: hidden ;
+}
+.mrfoot {
+	width: 100% ;
+	overflow: hidden ;
+	text-align: center ;
+	padding-left: 30% ;
+}
+.footer {
+	display: none ;
+}
+.mfooter {
+	width: 100% ;	
+	overflow: hidden ;
+}
+.mrfoot1 {
+	width: 100% ;
+	overflow: hidden ;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	
+}
+.mrfoot1>div {
+	width: 30px ;
+	height: 30px ;
+	margin: 5px ;
+    text-align: center ;
+	border-radius: 50px;
+	padding-top: 8px ;
+    color: white ;
+	font-size: 15px ;
+	background-color: #000042 ;
+}
+.mfehrest {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;	
+}
+.mfehrest > div {
+	padding: 3px 7px 6px 9px;
+	border-radius: 4px ;
+	text-align: center;
+	font-size: 0.75em ;
+	font-family: sans-serif ;
+	color: white;
+	position: relative ;
+
+}
+.mfehrest >.terms {
+	color: white ;
+	margin-right: 0px;
+}
+.mfehrest >.afghan {
+	padding-left: 3px ;
+}
+.mkhat {
+	color: #cccccc;
+	position: absolute ;
+	right : 0 ;
+}
+.mlink11 {
+	text-decoration: none ;
+	color: white;
+}
+
+.mprgend {
+	margin: 8px 0 0 8px ;
+	font-size: 0.75em ;
+	font-family: sans-serif ;
+	color: white ;
+	float: left ;
+	opacity: 0.4 ;
+}
+.picc1 {
+	width: 100% ;
+	height: 100% ;
+}
+
+.main5 {
+	display: none ;
+}
+
+.mobmain5 {
+	width: 100% ;
+	overflow: hidden ;
+	margin-top: 80px ;
+	padding: 20px 4.7% 30px 4.2% ;
+	background-color: #062b60 ;
+}
+.mobmain55 {
+	width: 100% ;
+	overflow: hidden ;  
+    border-bottom: 1px solid rgba(204, 204, 204, 0.1) ;
+	padding-bottom: 40px ;
+	padding-right: 30% ;
+}
+.mobmain55bala {
+	width: 100% ;
+	overflow: hidden ;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+	justify-content: space-between ;
+	justify-content: space-between ;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+@media only screen and (min-width: 768px) {
+.mobala {
+	display:none ;
+}	
+.momain1 {
+	display: none ;
+}
+.mochap {
+	display: none ;
+}
+.morast {
+	display: none ;
+}
+.mfooter {
+	display: none ;
+}
+.momain2 {
+	display: none ;
+}
+.mobmain5 {
+	display: none ;
+}
+}
+@media only screen and (max-width: 1270px) {
+.up1 {
+width: 100% ;
+height: 43% ;
+		padding : 0 ;
+	margin: 0 ;
+	background-color: #062b60 ;	
+	overflow: hidden;
+	
+}
+.logo {
+  top: 10px;
+  left: 1.3%;
+	
+}
+.list {
+  padding-left: 8.5% ;
+  padding-right: 1% ;
+}
+.lischap {
+ margin-top:8px;
+ height: 30px ;
+}
+.lischap > div {
+  margin-right: 0px;
+}
+.lisras {
+  margin-top: 8px;
+}
+.up2 {
+height: 41% ;
+	
+}
+.list1 {
+  margin-top: 8px;
+	margin-left: 8.5% ;
+	
+}
+.chap {
+	width: 187px ;
+}
+.main1 {
+	padding-left: 1.3% ;
+	padding-right: 1.3% ;
+	
+}
+.vasat {
+	width: 60% ;
+	border: 1px solid #cccccc; 
+	background-color: white ;
+	overflow: hidden ;
+	margin-left: 13px ;
+	margin-right: 13px ;
+	
+}
+.ax66 {
+	width: 100%;
+	height: 75px ;
+	overflow: hidden ;
+	position: relative ;
+}
+.rasteax {
+    width: 100% ;
+    overflow: hidden ;
+	font-family: sans-serif ;
+    font-weight: bolder ;
+    padding-top: 0 ;
+	line-height: 15px ;
+}
+.aval {
+    border-bottom: 1px solid white ;
+	margin-top : 10px ;
+	padding-bottom: 1px ;
+	margin-bottom: 13px ;
+}
+.special {
+    position: absolute ;
+	font-family: sans-serif ;
+    font-weight: bolder ;
+	font-size: 0.7em ;
+	left: 64px ;
+	color: rgb(24, 52, 104);
+}
+.special:hover {
+	opacity: 0.7 ;
+}
+
+}
+@media only screen and (max-width: 1000px) {
+.hazf{
+	display: none ;
+}
+.up1 {
+width: 100% ;
+height: 52% ;
+		padding : 0 ;
+	margin: 0 ;
+	background-color: #062b60 ;	
+	overflow: hidden;
+	
+}
+.list {
+  width:100% ;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  
+  justify-content: space-between ;
+  overflow: hidden ;
+  padding-left: 13.5% ;
+  padding-right: 2% ;
+}
+.lischap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow: hidden ;
+ margin-top: 12px;
+ height: 30px ;
+}
+.lischap > div {
+ padding: 6px 9px 6px 9px;
+  border-radius: 4px ;
+  margin-right: 8px;
+  text-align: center;
+font-size: 0.9em ;
+font-family: sans-serif ;
+font-weight: bolder ;
+color: white;
+
+}
+.lischap > div:hover {
+	background-color: rgba(232, 232, 255 , 0.3);
+	opacity: 0.9 ;
+
+}
+.lisras {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 10.5px;
+   height: 30px ;
+   overflow: hidden ;
+}
+.lisras > div {
+ padding: 6px 9px 6px 9px;
+  border-radius: 4px ;
+  text-align: center;
+font-size: 0.9em ;
+font-family: sans-serif ;
+font-weight: bolder ;
+color: white;
+}
+.lisras > div:hover {
+	background-color: rgba(232, 232, 255 , 0.3);
+	opacity: 0.9 ;
+
+}
+.lisras >.ic {
+	margin-right: 3px;
+}
+.lisras > .ic:hover {
+	background-color: #062b60;
+	opacity: 1 ;
+
+}
+.lisras >.watch {
+	background-color: #cc0000 ;
+	
+}
+.lisras >.watch:hover {
+	background-color: rgba(255, 102, 102, 1) ;
+	
+	
+}
+.up2 {
+width: 100% ;
+height: 50% ;
+		padding : 0 ;
+	margin: 0 ;
+	background-color: white ;	
+overflow:hidden ;
+	
+}
+
+.list1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 10.5px;
+	margin-left: 13.5% ;
+	
+}
+.logo {
+width: 9.5% ;
+ position: absolute;
+  top: 7%;
+  left: 2.5%;
+position: absolute ;
+border : 3px solid white ;
+border-radius: 4px ;
+	
+}
+}
+
+
+
+
+
+
+
+
